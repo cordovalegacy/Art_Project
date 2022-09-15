@@ -1,0 +1,51 @@
+The following instructions are for each member in group 8 to follow when starting to work on your designated code.
+Follow these steps everytime you want to work on anything.
+
+!Important : PLZ Shoutout what you are working on when you start work so that we don't accidentally work on the
+same file and overwrite one another's work.
+-----------------------------------------------------------------------------------------------------------------
+Start Here: 
+
+Make an empty folder called "Group_Project"
+//!you will only do this once
+
+Open terminal, follow steps => cd Group_Project
+//open up this folder in your terminal...this should be empty..and is where you will be cloning the project to for you to start 
+//working on your code 
+
+------------------------------------------------------------------------------------------------------------------
+
+git clone "https://github.com/Group-Art-Project/Art-Project.git" 
+//this is to manually grab the updated code from the main branch so you have the newest version
+
+git checkout -b branchName 
+//after "-b" type in what you want your branchName to be... name your branch in camelCase based off whatever youre working on
+
+--------
+//Work on project now, whatever needs to get done, do it at this step...
+//review work and make sure it is working/running properly before you move on to next steps
+//save code/changes
+--------
+
+git add .
+//this will add the changes you made to your code. Will add to your branch "branchName"
+
+git commit -m "message"
+//here your "message" will contain whatever you worked on...for example... -m "Updated axios calls" or -m "added new schema in model"
+
+git push origin branchName
+//this will push your branch, branchName (the name that you came up with during git checkout), into our teams GitHub repository
+
+------------------------------------------------------------------------------------------------------------------
+
+at this point: 
+1. make the pull request
+2. ping the team to have changes reviewed for the push into the main branch.
+3. someone will review merge/pull request
+4. now your branchName is pushed into the main branch
+5. check the updated project repo to see if your new code is in there
+6. you can delete your local project inside your Group_Project folder...
+7. when ready to work on new code again, repeat steps from the top 
+
+attached are screenshots of what pull request looks like on GitHub >>>>>
+ 
